@@ -19,6 +19,19 @@ PRODUCT_DEVICE := vitamin
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := CPH2493
 PRODUCT_NAME := lineage_vitamin
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Dimensity9000" \
+    RisingMaintainer="LemonXD"
+
+#rising flags 
+RISING_MAINTAINER := LemonXD
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_CORE_GMS_EXTRAS := true
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
